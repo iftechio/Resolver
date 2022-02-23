@@ -27,9 +27,11 @@
 #if os(iOS)
 import UIKit
 import SwiftUI
+import Combine
 #elseif os(macOS) || os(tvOS) || os(watchOS)
 import Foundation
 import SwiftUI
+import Combine
 #else
 import Foundation
 #endif
